@@ -16,6 +16,7 @@ namespace ProjetoAula03.Entities
         public string Matricula { get; set; }
         public string Cpf { get; set; }
         public DateTime DataAdmissao { get; set; }
+        public Guid EmpresaId { get; set; }
 
         #region Associações
 
